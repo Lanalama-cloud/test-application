@@ -1,0 +1,22 @@
+print("I'm learning Git merge conflicts")
+
+# Ask for the user's first name
+name = input('Please enter your first name: ')
+
+# Ask for the user's last name
+last_name = input('Please enter your last name: ')
+
+# Ask for the user's nickname
+nick = input('Please enter your nickname: ')
+
+# Print a greeting message using all three variables
+print(f'Hi, {name} {last_name}! a.k.a. {nick}!')
+
+Terminnal:
+
+MacBook-Air-3:introduction-to-programming-python lana$ python3 new_app.py
+I'm learning Git merge conflicts
+Please enter your first name: Lana
+Please enter your last name: Krupelnytska
+Please enter your nickname: lama
+Hi, Lana Krupelnytska!a.k.a. lama!
